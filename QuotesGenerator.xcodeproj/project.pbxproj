@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FC2E4D0281BB350006C12BE /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2E4CF281BB350006C12BE /* Quote.swift */; };
 		6FDB38AB281BAF7400542636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB38AA281BAF7400542636 /* AppDelegate.swift */; };
 		6FDB38AD281BAF7400542636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB38AC281BAF7400542636 /* SceneDelegate.swift */; };
 		6FDB38AF281BAF7400542636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB38AE281BAF7400542636 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FC2E4CF281BB350006C12BE /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		6FDB38A7281BAF7400542636 /* QuotesGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDB38AA281BAF7400542636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FDB38AC281BAF7400542636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				6FDB38B3281BAF7500542636 /* Assets.xcassets */,
 				6FDB38B5281BAF7500542636 /* LaunchScreen.storyboard */,
 				6FDB38B8281BAF7500542636 /* Info.plist */,
+				6FC2E4CF281BB350006C12BE /* Quote.swift */,
 			);
 			path = QuotesGenerator;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC2E4D0281BB350006C12BE /* Quote.swift in Sources */,
 				6FDB38AF281BAF7400542636 /* ViewController.swift in Sources */,
 				6FDB38AB281BAF7400542636 /* AppDelegate.swift in Sources */,
 				6FDB38AD281BAF7400542636 /* SceneDelegate.swift in Sources */,

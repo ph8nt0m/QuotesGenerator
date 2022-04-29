@@ -54,6 +54,9 @@
                                 <rect key="frame" x="169" y="333" width="76.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="명언 생성"/>
+                                <connections>
+                                    <action selector="tagQuoteGeneraterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xRl-XG-wOe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,6 +72,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="13L-Mf-gh2" secondAttribute="trailing" constant="24" id="uXD-Mg-kqz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="CWT-kc-GPW" id="xCQ-Wb-25R"/>
+                        <outlet property="quoteLabel" destination="Qs1-tT-MQb" id="xGe-CT-WL9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
